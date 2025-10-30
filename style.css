@@ -1,0 +1,15 @@
+h1, h2, {
+  font-family: "Georgia", serif;
+}
+body {
+  background-color: palevioletred
+  margin: 0;
+  padding: 40px; 
+  font-family: Arial, sans-serif;
+}
+.about-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: start;
+}
